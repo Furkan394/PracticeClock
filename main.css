@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: skyblue;
+}
+
+#p-1{
+    font-size: 1.8rem;
+    position: absolute;
+    margin-bottom: 15rem;
+}
+
+#p-2{
+    font-size: 2rem;
+    position: absolute;
+    margin-top: 16rem;
+}
+
+img{
+    position: absolute;
+    width: 185px;
+    height: auto;
+    opacity: 0.6;
+}
+
+.clock{
+    position: relative;
+    width: 40rem;
+    height: 40rem;
+    background: url("https://cssanimation.rocks/images/posts/clocks/ios_clock.svg") center;
+    background-repeat: no-repeat;
+    border: 5px solid black;
+    border-radius: 50%;
+    background-size: 88%;
+}
+
+.secs{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 12rem;
+    width: .1rem;
+    background-color: tomato;
+    transform: translateX(-50%);
+    transform-origin: 25% 0;
+}
+.mins{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 9rem;
+    width: .3rem;
+    border-radius: 20px;
+    background-color: black;
+    transform: translateX(-50%);
+    transform-origin: 25% 0;
+}
+
+.hours{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 6rem;
+    width: .5rem;
+    border-radius: 15px;
+    background-color: black;
+    transform: translateX(-50%);
+    transform-origin: 50% 0;
+}
+
+.dot{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    background-color: black;
+    transform: translate(-50%);
+}
+
